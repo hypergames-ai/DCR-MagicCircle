@@ -40,7 +40,7 @@ Worlds have standing toward a parent: sovereign, lodged, chartered, suppressed, 
 ## What the scenario demonstrates
 **hierarchy()** walks a single parent world (“one people”) through: 
 1. Founding and chartering a ranked church (degrees + offices, including an elected pope). 
-2. A conclave: Peter resigns the office; the cardinals lock themselves ina circle whose licensed rite installs a new pope. Degree survives the vacancy. 
+2. A conclave: Peter resigns the office; the cardinals lock themselves in a circle whose licensed rite installs a new pope. Degree survives the vacancy. 
 3. An order inside the church with its own degrees. A person’s rank in one says nothing about the other. 
 4. A secret, esoteric lodge founded at a dinner and withheld from the nation’s ledger. Initiation is a licensed rupture that writes an indelible trace at the degree it concerns. Signs are coined, disclosed by degree, and one is leaked (burned). 
 5. Cross-cutting membership: Ambrose outranks Umberto in the church; the reverse holds for lodge currency. 
