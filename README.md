@@ -9,14 +9,14 @@ The file is organized around the comment at the top:
 
 **Person** is deliberately thin: only a name. Who a person is, what rank they hold, and what currency they possess are never stored on the person. They are read off a world’s ledger, and they differ from world to world. 
 
-**Play space** is **Rules** + **Move** + **GameState**. Rules admit moves and can absorb house rules that originated as gestures. They also know their own licensed refusals (the fool, the carnival king, “I quit”) and, separately, rites that change standing in the hosting world. **GameState** is iterable by construction; the only thinga World can never dois **reset()**. 
+**Play space** is **Rules** + **Move** + **GameState**. Rules admit moves and can absorb house rules that originated as gestures. They also know their own licensed refusals (the fool, the carnival king, “I quit”) and, separately, rites that change standing in the hosting world. **GameState** is iterable by construction; the only thing a World can never dois **reset()**. 
 
 **Transitional space** is **Gesture**. A gesture is not a move and not a refusal. If other players take it up, it is absorbed as a house rule. If it is challenged, it is impinged. This is the Winnicott layer: spontaneous shape that may or may not become durable. 
 
 The seam is **Refusal**. It is addressed to the players as persons, about the frame itself. It carries a hero role the circle did not offer, optional negations of the host world’s hero roles, and (if it is to found) the degrees and offices of the new world. The key method is **MagicCircle.rupture**. Depending on uptake and whether the refusal is licensed: 
-- licensed > reincorporated (same circle, same world, possibly a new degree or office) 
-- unmet > ejected 
-- met and held > a new **World** is founded inside the custodian’s world 
+- licensed → reincorporated (same circle, same world, possibly a new degree or office) 
+- unmet → ejected 
+- met and held → a new **World** is founded inside the custodian’s world 
 
 The withheld flag is the custodian defecting: the founding occurs and the parent’s ledger is not told. That is the origin of secret societies in the model. 
 
@@ -50,4 +50,4 @@ The prints at the end make the invariants visible: degree is indelible and local
 
 ### Technical character 
 The code is careful about what is stored versus computed. Degree and “who” are reductions over filtered ledgers. Parent links are weak; secret children are simply not inserted into **children**. Visibility is a first-class field on traces and symbols. The non-copyable **Deed** and the precondition that a founding requires plurality are structural, not comments. The whole thing is written so that the philosophical distinctions (trace vs. thing, content vs. distribution, licensed rupture vs. founding rupture, esoteric vs. secret) are the type and method boundaries. 
-It is a compact executable specification of nested worlds in which rank, secrecy, and signs are not added features but consequences of how ledgers, visibility, and runtire are defined 
+It is a specification of nested worlds in which rank, secrecy, and signs are not added features but consequences of how ledgers, visibility, and runtire are defined.
