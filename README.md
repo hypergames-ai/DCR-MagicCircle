@@ -1,5 +1,7 @@
 # DCR-MagicCircle
 
+How can we model real-world Secret Societies (and other esoteric hierarchical superorgs) in the DCR?
+
 This is a self-contained, runnable Swift script that encodes a precise model of nested social worlds as types. It treats a magic circle as the temporary play/transitional space in which a world can be founded, ranked, kept secret, or dissolved, and it makes the distinction between indelible standing and revocable office, and between content and distribution, into enforceable structure rather than commentary. 
 
 ## The two containers and their layers 
