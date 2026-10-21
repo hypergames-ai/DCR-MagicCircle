@@ -5,7 +5,7 @@ How can we model real-world Secret Societies (and other esoteric hierarchical su
 This is a self-contained, runnable Swift script that encodes a precise model of nested social worlds as types. It treats a magic circle as the temporary play/transitional space in which a world can be founded, ranked, kept secret, or dissolved, and it makes the distinction between indelible standing and revocable office, and between content and distribution, into enforceable structure rather than commentary. 
 
 ## The two containers and their layers 
-The file is organized around the comment at the top: 
+Two realms: 
 - A **MagicCircle** is play space (Huizinga) plus transitional space (Winnicott).
 - A **World** is transactional space (things, walls) plus space of appearance (Arendt). 
 
