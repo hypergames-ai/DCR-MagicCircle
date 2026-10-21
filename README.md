@@ -4,7 +4,8 @@ This is a self-contained, runnable Swift script that encodes a precise model of 
 
 # The two containers and their layers 
 The file is organized around the comment at the top: 
-+ A MagicCircle is play space (Huizinga) plus transitional space (Winnicott). - A World is transactional space (things, walls) plus space of appearance (Arendt). 
++ A MagicCircle is play space (Huizinga) plus transitional space (Winnicott).
++ A World is transactional space (things, walls) plus space of appearance (Arendt). 
 
 Person is deliberately thin: only a name. Who a person is, what rank they hold, and what currency they possess are never stored on the person. They are read off a world’s ledger, and they differ from world to world. 
 
