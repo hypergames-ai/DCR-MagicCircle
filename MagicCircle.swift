@@ -3,7 +3,7 @@
 // Run as a script: swift MagicCircle.swift
 //
 //   magic circle = play space (rules, moves: Huizinga) + transitional space (gestures: Winnicott)
-//   world        = transactional space (things, walls)  + space of appearance (deeds, words: Arendt)
+//   world        = transactional space (things, walls) + space of appearance (deeds, words: Arendt)
 //
 // Rank lands on the world's two layers: a degree is conferred and indelible (a trace), an office
 // is held and vacated (a thing). Secrecy comes in two kinds: graded disclosure of content
